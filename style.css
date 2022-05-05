@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.aafoodservice.com/wp-content/themes/custom-theme/img/slider-v1704.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+
+.hero {
+    /* background: transparent; */
+    opacity: .9;
+    width: 420px;
+    margin: auto;
+    background-color: rgb(164, 161, 161);
+}
+
+.displayTip {
+    display: none;
+}
+
+#tipAmount {
+    font-size: 3.5em;
+    letter-spacing: 5px;
+}
+
+#tipAmount::before {
+    content: '$';
+}
+
